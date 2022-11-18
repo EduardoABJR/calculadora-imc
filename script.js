@@ -1,5 +1,5 @@
 
-const calcBtn = document.getElementById('#btn');
+const calcBtn = document.querySelector('#btn');
 
 calcBtn.addEventListener("click", () => {
     console.log('teste');
